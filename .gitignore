@@ -1,0 +1,12 @@
+secrets.json
+secrets.json.example
+.venv/
+executed/
+make_secrets.py
+run_pack.py
+apply_fixes.py
+test_nb08_queries.py
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
