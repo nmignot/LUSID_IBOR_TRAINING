@@ -1,13 +1,13 @@
 # IBOR Implementation Training Pack — v8
 
-Scope: `ibor-training-v8`  |  Quote scope: `ibor-training-v8-quotes`  |  SDK: Python (SDK v3)
+Scope: `ibor-training-v9`  |  Quote scope: `ibor-training-v9-quotes`  |  SDK: Python (SDK v3)
 
 ## Contents
 - NB00–NB08 Jupyter notebooks
 - IBOR_Implementation_Training_Guide.html (implementation guide + data/events reference)
 
 ## How to run
-1. Create a fresh `ibor-training-v8` scope (or run against an empty one).
+1. Create a fresh `ibor-training-v9` scope (or run against an empty one).
 2. Place the nine notebooks beside your `data/` folder of CSVs and `secrets.json`.
 3. Run NB00 → NB08 in order on the "Python (SDK v3)" kernel.
    - After a kernel restart, run the first (auth) cell of a notebook before any other cell.
@@ -53,7 +53,7 @@ Scope: `ibor-training-v8`  |  Quote scope: `ibor-training-v8-quotes`  |  SDK: Py
 | IBOR-GAGG | ~$130.9M |
 
 ## Note
-Verified end-to-end by live execution against a fresh `ibor-training-v8` scope (NB00→NB08 +
+Verified end-to-end by live execution against a fresh `ibor-training-v9` scope (NB00→NB08 +
 MEGA_VALIDATION: 52/52 checks pass). Bond coupon rates in the CSVs are percentages (e.g. 4.50);
 NB00 divides by 100 when building `Bond`/`ComplexBond` definitions so LUSID receives a decimal
 coupon (0.045). The FI/MA totals above reflect that corrected coupon (an earlier draft passed the

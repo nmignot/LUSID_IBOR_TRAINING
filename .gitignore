@@ -10,3 +10,23 @@ test_nb08_queries.py
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# --- standardised excludes ---
+secrets.*.json
+.env
+*_executed.ipynb
+*_output.ipynb
+run_seq.py
+run_multi.py
+run_one.py
+run_all_advanced.py
+dump_code.py
+fix_dates.py
+update_banner.py
+scope_rewrite.py
+doc_scope_rewrite.py
+audit_numbers.py
+finalize_git.py
+_introspect.py
+_lt_diag.py
+manifest_*.json
